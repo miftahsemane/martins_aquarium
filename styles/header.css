@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    background-color: rgba(70, 188, 218, 0.986);
+    justify-content: stretch;
+
+}
+.title{
+    align-self: center;
+    font-size-adjust: inherit;
+}
