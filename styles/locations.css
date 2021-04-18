@@ -1,0 +1,12 @@
+.header--location{
+    font-size: 2rem;
+    color: rgb(60, 71, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(60, 71, 65);
+    font-size: 18px;
+    align-content: center; 
+}

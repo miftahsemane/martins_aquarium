@@ -7,18 +7,37 @@
     @import './quotes.css';
 
     .main-aside{
-        
-        display: flex;
-        justify-content: space-between;
+        display: flex;   
      }
+
     .main{
-        
         flex: 3;
-        background-color: #3585c7e1 ;
+        background-color:#bbdefb;
+        padding: 0.5em;
+    }
+
+    .fish{
+        display: flex;
+        padding: 0.5em;
+        flex-wrap: wrap; 
     }
     
+    .header--fishes{
+        font-size: 2rem;
+        color: rgb(60, 71, 65);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .fish_image{
+        border: 2px rgb(139, 241, 241);
+        border-radius: 30px; 
+    }
 
+    .fish_info{
+        padding: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(60, 71, 65);
+        font-size: 15px;
+        align-content: center;
+    }
 
-    
-    
-
+   

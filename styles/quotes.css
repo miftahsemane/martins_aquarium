@@ -1,0 +1,17 @@
+.quotes{
+    text-align: center;
+    
+}
+
+.header--quotes{
+    font-size: 2rem;
+    color: rgb(60, 71, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quote{
+    
+    color: rgb(60, 71, 65);
+    font-size: 1rem;
+    font-family: fantasy;
+}
+

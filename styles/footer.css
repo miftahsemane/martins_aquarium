@@ -1,5 +1,11 @@
 .footer{
-   
     display: flex;
     justify-content: space-between;
-    background-color: rgba(70, 188, 218, 0.986);
+    padding: 1em;
+    background-color: #3399FF;
+    color: cornsilk;
+
+}
+.footer-copyright{
+    align-self: flex-end;
+}

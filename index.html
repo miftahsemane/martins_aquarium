@@ -8,72 +8,80 @@
   <body>
     <script type="module" src="./scripts/main.js"></script>
     <header class="header">
-        <img src="./images/logo_200x200.png" alt="Martin's Aquarium Logo"/>
+        <img src="./images/logo_200x200.png" width="200px" height="200px"alt="Martin's Aquarium Logo"/>
         <h1 class="title">Martin's Aquarium</h1>
     </header>
       <div class="main-aside">
         <main class="main">
-          <section class="fishes">
+          <article class="fishes">
             <h2 class="header--fishes">Martin's Fish</h2>
-            <article class="fish">
-              <img src="https://cf.ltkcdn.net/small-pets/images/orig/257918-1557x1060-Guppy_Fish.jpg" alt="Guppy fish     image"width="600" height="450"/> 
+            <section class="fish">
+              <div class="fish_image">
+              <img src="https://www.buildyouraquarium.com/wp-content/uploads/2019/03/veiltail-goldfish.jpg" width="500" height="300"  alt="Goldfish fish image"/> 
+              </div>
+              <div class="fish_info">
               <h3 class="fish_name">Jack</h3>
-              <p class="fish_species">Guppy</p> 
+              <p class="fish_species">Goldfish</p> 
               <p class="fish_length">3 inches</p> 
               <p class="fish_location">Antigua </p>
               <p class="fish_eats">peas</p>
-            </article>
-            <article class="fish">
-              <img src="https://cdn.fishtankadvisor.com/wp-content/uploads/2019/11/Neon-tetra-in-planted-aquarium.jpg  "  alt="Neo tetra fish image"width="600" height="450"/>
+              </div>
+            </section>  
+            <section class="fish">
+              <div class="fish_image">
+              <img src="https://cdn.fishtankadvisor.com/wp-content/uploads/2019/11/Neon-tetra-in-planted-aquarium.jpg" width="500" height="300" alt="Neo tetra fish image"/>
+              </div>
+              <div class="fish_info">
               <h3 class="fish_name">Captain</h3>
               <p class="fish_species">Neon tetra</p>
               <p class="fish_length">1.5 inches</p>
               <p class="fish_location">Colombia</p>
               <p class="fish_eats">Daphnia</p>
-            </article>
-            <article class="fish">
-              <img src="http://www.outdooralabama.com/sites/default/files/media/fishing/freshwater-fishing/bream/hi-res/Bluegill400.jpg " alt="Bluegill fish image"width="600" height="450"/>
+              </div>
+            </section>
+            <section class="fish">
+              <div class="fish_image">
+              <img src="https://azure.wgp-cdn.co.uk/app-practicalfishkeeping/features/4d636c05977c4.jpg" width="500" height="300" alt="Angelfish image"/>
+              </div>
+              <div class="fish_info">
               <h3 class="fish_name">Finely</h3>
-              <p class="fish_species">Bluegill</p>
+              <p class="fish_species">Angelfish</p>
               <p class="fish_length">7.5 inches</p>
               <p class="fish_location">Mexico </p>
               <p class="fish_eats">Insect larvae</p>
-            </article>
-          </section>
-          <section class="quotes">
-            <h3 class="header--quotes">Quotes</h3>
-              <article class="quotes">
-              <p class="quote">Good things come to those who bait</p>
-              </article>
-              <article class="quotes">
-              <p class="quote">If you can read this, you are fishing too close.</p>
-              </article>
-              <article class="quotes">
-              <p class="quote">There is no limit to many times you can go fishing.</p>
-              </article>
-              <article class="quotes">
-              <p class="quote">Life is like a game, but fishing is serious.</p>
-              </article>
-          </section>
-          <section class="section--location">
+              <div>
+            </section>
+          </article>
+          <hr style="width:35%">
+          <article class="quotes">
+              <h3 class="header--quotes">Quotes</h3>
+              <p class="quote"> Good things come to those who bait.</p>
+              <p class="quote"> If you can read this, you are fishing too close.</p>
+              <p class="quote"> There is no limit to many times you can go fishing.</p>
+              <p class="quote"> Life is like a game, but fishing is serious.</p>
+          </article>
+
+          <hr style="width:35%">
+          
+          <article class="article--location">
               <h3 class="header--location">Locations</h3>
-              <article class="locations">
+            <section class="locations">
               <p class="location">Antigua</p>
-              <img src="https://www.sandals.com/blog/content/images/2020/09/Sandals-Grande-Antigua-Long-Beach.jpg" alt="Antiqua Picture"width="600" height="450"/>
-            </article>
-            <article class="locations">
+              <img src="https://www.sandals.com/blog/content/images/2020/09/Sandals-Grande-Antigua-Long-Beach.jpg" width="600" height="300" alt="Antiqua Picture"/>
+            </section>
+            <section class="locations">
               <p class="location">Colombia</p>
-              <img src="https://i.natgeofe.com/n/9eadc71f-c8cb-4997-b976-f086468e4c94/shutterstock_771163747.jpg?w=636&h=424" alt="Colombia coast Picture"width="600" height="450"/>
-            </article>
-            <article class="locations">
+              <img src="https://i.natgeofe.com/n/9eadc71f-c8cb-4997-b976-f086468e4c94/shutterstock_771163747.jpg?w=636&h=424" width="600" height="300" alt="Colombia coast Picture"/>
+            </section>
+            <section class="locations">
               <p class="location">Mexico</p>
-              <img src="https://beachtraveldestinations.com/wp-content/uploads/2016/05/Mexico-beaches-1.jpg" alt="Colombia coast Picture"width="600" height="450"/>
-            </article>
-          </section>
+              <img src="https://beachtraveldestinations.com/wp-content/uploads/2016/05/Mexico-beaches-1.jpg" width="600" height="300" alt="Colombia coast Picture"/>
+            </section>
+          </article>
         </main>
         <aside class="care__tips">
           <h2 class="header--care__tips">Tank Care Tips</h2>
-          <ul class="ull--care__tips">
+          <ul class="ul--care__tips">
             <li class="care__tip">Cycle the tank before adding fish.</li>
             <li class="care__tip">Test and monitor water parameters.</li>
             <li class="care__tip">Perform regular water changes.</li>
@@ -87,13 +95,12 @@
             <p class="contact">661 Bell Rd</p>
             <p class="contact">Antioch</p>
             <p class="contact">TN, 37013</p>
+            <p class="contact">(615) 000-000</p>
           </div>
           <div class="footer-copyright">© 2021 Martin's Aquarium</div>
-          <div class="footer-social media">
-            <h3 class="header--social media">Follow Us</h3>
-            <p class="contact">Facebook:</p>
-            <p class="contact">Instagram:</p>
-            <p class="contact">Twitter</p>
+          <div class="footer-social_media">
+            <h3 class="social--media">Follow Us</h3>
+            <img src="https://i.pinimg.com/originals/48/52/a5/4852a5cb7f4ad9a76365651cc3fa440c.png " width="160px" heigh="60px" alt="social media logos"/>
           </div>
         </footer>
   </body>

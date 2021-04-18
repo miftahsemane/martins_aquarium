@@ -1,4 +1,16 @@
 .care__tips{
-    flex: 1 ;
-    background-color: cornflowerblue;
+    background-color: #e3f2fd;
+    padding: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(60, 71, 65);
 }
+.header--care__tips{
+    font-size: 2rem;
+}
+.care__tip{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+        
